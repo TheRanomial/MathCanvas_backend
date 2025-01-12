@@ -8,6 +8,7 @@ from PIL import Image
 
 router=APIRouter()
 
+
 @router.post('')
 async def run(imageData:ImageData):
     image_data=base64.b64decode(imageData.image.split(",")[1])

@@ -15,7 +15,7 @@ app=FastAPI(lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*","https://mathcanvas.vercel.app/","https://mathcanvas-git-main-himanshu-singhs-projects-3fa7f7ca.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
